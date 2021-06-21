@@ -25,7 +25,7 @@ insert into tb_produtos(nome, preco) values("Morango", 8.00);
 
 alter table tb_produtos modify preco decimal(5,2);
 
-update tb_produtos set preco = 4.50 where id = 2;
+update tb_produtos set preco = 4.50 where id = 2;usuariousuario
 update tb_produtos set preco = 2.50 where id = 3;
 update tb_produtos set preco = 7.50 where id = 4;
 
